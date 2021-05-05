@@ -1,4 +1,4 @@
-const welcome = 'Welcome to my little project!';
+const welcome = 'Welcome to my little project! I hope you find this tool useful. You can send me feedback by emailing megan.obrien@hey.com.';
 console.log(welcome);
 
 //This simple app is here to do one thing, help you quickly find and replace all within a string. Or as I like to call it string cleaning.
@@ -9,8 +9,8 @@ const stringClean = (inputString, replace, withThis) => {
     console.log(inputString, replace, withThis);
     //capturing the new string and replacing all occurances with the .replaceAll method
     const cleanString = inputString.replaceAll(replace, withThis);
-    console.log('Result: ', cleanString);
+    console.log('Result:', cleanString);
 };
 
 //call the function
-stringClean('test 1 2 3', ' ', ',');
+stringClean('1234566 09430985 3284739847', ' ', ',');

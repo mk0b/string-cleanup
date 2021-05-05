@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="goodstuff.js"></script>
+    <script src="app.js"></script>
 </head>
 <body>
-    
+    <div class="container"> 
+        <header>
+            <span><h1>String Cleanup</h1></span>
+        </header>
+        <form action="index.html" method="post">
+            <fieldset>
+                <legend>Let's get to string cleaning 🧵🧹</legend>
+
+                <label for="string">String you want to clean:</label>
+                <input type="text" id="string" name="user-string">
+
+                <label for="replace">Replace this:</label>
+                <input type="text" id="replace" name="user-replace">
+
+
+                <label for="withThis">With this:</label>
+                <input type="text" id="withThis" name="user-withThis">
+
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
