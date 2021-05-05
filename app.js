@@ -1,5 +1,8 @@
 const welcome = 'Welcome to my little project! I hope you find this tool useful. You can send me feedback by emailing megan.obrien@hey.com.';
 console.log(welcome);
+//grabbing elements
+const form = document.getElementById('form');
+console.log(form);
 
 //This simple app is here to do one thing, help you quickly find and replace all within a string. Or as I like to call it string cleaning.
 //Thinking about adding a sparking clean animation
@@ -17,6 +20,15 @@ const stringClean = (inputString, replace, withThis) => {
     const cleanString = inputString.replaceAll(replace, withThis);
     console.log('Result:', cleanString);
 };
+
+//capturing form content on submit
+const captureSubmit = (event) => {
+    console.log('Form submitted!');
+    event.preventDefault();
+};
+
+//listening for form submit
+form.addEventListener('submit', captureSubmit);
 
 //call the function
 stringClean('1234566 09430985 3284739847', ' ', ',');
