@@ -21,14 +21,14 @@ const stringClean = (inputString, replace, withThis) => {
     console.log('Result:', cleanString);
 };
 
-//capturing form content on submit
-const captureSubmit = (event) => {
+//listening for form submit, preventing default, and capturing fields
+form.addEventListener('submit', (event) => {
     console.log('Form submitted!');
     event.preventDefault();
-};
-
-//listening for form submit
-form.addEventListener('submit', captureSubmit);
+    
+    //capturing form content here
+    console.log('Values: ', );
+});
 
 //call the function
 stringClean('1234566 09430985 3284739847', ' ', ',');
