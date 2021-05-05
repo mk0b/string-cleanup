@@ -2,6 +2,12 @@ const welcome = 'Welcome to my little project! I hope you find this tool useful.
 console.log(welcome);
 
 //This simple app is here to do one thing, help you quickly find and replace all within a string. Or as I like to call it string cleaning.
+//Thinking about adding a sparking clean animation
+//connect the form to the JS
+//print the result on the page
+//add some more explination on what the app does
+//host it with github pages
+//mess with css
 
 //accepting the string, what needs to be relaced, what to replace it with
 const stringClean = (inputString, replace, withThis) => {
