@@ -47,4 +47,18 @@
     text-align: center;
     padding: 100px;
   }
+
+  .submitButton {
+    border: none;
+    width: 32px;
+    height: 32px;
+    background-color: #eee;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+  }
+
+  .submitButton:hover {
+    border: 1px solid #888;
+    background-color: rgb(93, 211, 46);
+  }
   
