@@ -9,14 +9,11 @@
 </head>
 <body>
     <div class="container"> 
-        <header>
-            <span class="pageTitle"><h1>String Cleanup 🧵🧹</h1></span>
+            <div class="pageTitle"><h1>🌸 String Cleanup 🧵🧹</h1></div>
             <span class="appDesc"><p>A simple app that will take a string and replace all for you. Note, this app currently does not save any data or results. Once you refresh the page or clear the form, your data is gone.</p></span>
-        </header>
         <form id="form" action="index.html" method="post">
             <fieldset>
-                <legend class="formLegend">Let's get to string cleaning!</legend>
-
+                
                 <label for="string">String you want to clean:</label>
                 <input type="text" id="string" name="user-string" autofocus>
 
@@ -29,8 +26,10 @@
 
             </fieldset>
 
-            <button class="submitButton" type="submit" title="CLEAN IT">🧹</button>
-            <button class ="resetButton" id="resetButton" title="Clear">🗑️</button>
+            <div class="buttons">
+                <button class="submitButton" type="submit" title="CLEAN IT">🧹</button>
+                <button class ="resetButton" id="resetButton" title="Clear">🗑️</button>
+            </div>
 
         </form>
     </div>
