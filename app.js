@@ -7,8 +7,7 @@ const clearButton = document.getElementById('resetButton');
 //This simple app is here to do one thing, help you quickly find and replace all within a string. Or as I like to call it string cleaning.
 //Thinking about adding a sparking clean animation
 //add some error handling/validation
-//host it with github pages
-//cleanup console logs
+//add an emoji as a favicon
 
 //accepting the string, what needs to be relaced, what to replace it with
 const stringClean = (inputString, replace, withThis) => {
