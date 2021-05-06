@@ -44,8 +44,36 @@
   }
 
   .container {
-    text-align: center;
     padding: 100px;
+  }
+
+  .pageTitle {
+    color:#333;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .appDesc {
+      color:#333;
+      padding: 10px;
+      text-align: center;
+  }
+
+  .formLegend {
+      padding: 10px;
+      text-align: center;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  label {
+      text-align: left;
+      padding: 5px;
   }
 
   .submitButton {
