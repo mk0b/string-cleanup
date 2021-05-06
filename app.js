@@ -28,7 +28,7 @@ const stringClean = (inputString, replace, withThis) => {
 //display the clean string function
 const displayCleanString = (cleanString) => {
     //capturing an existing element if there is one.
-    const element = document.createElement('h3');
+    const element = document.createElement('p'); 
     element.className = 'result';
     element.textContent = `Result: ${cleanString}`;
     form.appendChild(element);
