@@ -29,15 +29,12 @@ const displayCleanString = (cleanString) => {
 //listening for form submit, preventing default, and capturing fields
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    //capturing form content here
+    //capturing form content here and converting to lowercase
     const string = document.getElementById('string').value;
-    //converting to lowercase
     const stringLowerCase = string.toLowerCase();
     const replace = document.getElementById('replace').value;
-    //converting to lowercase
     const replaceLowerCase = replace.toLowerCase();
     const withThis = document.getElementById('withThis').value;
-    //converting to lowercase
     const withThisLowerCase = withThis.toLowerCase();
     //calling the stringclean function and inputting the fields from the form
     const cleanString = stringClean(stringLowerCase, replaceLowerCase, withThisLowerCase);
