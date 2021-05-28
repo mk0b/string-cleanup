@@ -8,6 +8,7 @@ const clearButton = document.getElementById('resetButton');
 //Thinking about adding a sparking clean animation
 //add some error handling/validation
 //add an emoji as a favicon
+//add clear results button
 
 //accepting the string, what needs to be relaced, what to replace it with
 const stringClean = (inputString, replace, withThis) => {
